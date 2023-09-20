@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Title";
+    src: url("/font/YeZiGongChangJingHongXingKai-2.ttf");
+}
+.title{
+    font-family: "Title";
+    text-align: center;
+    font-size: 80px;
+}
