@@ -6,16 +6,34 @@
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+
 </head>
 <body>
 <h1 class="title">基沃书局</h1>
-<nav>
-    <div class="row">
-        <div class="col p-3 bg-primary text-white">.col</div>
-        <div class="col p-3 bg-dark text-white">.col</div>
-        <div class="col p-3 bg-primary text-white">.col</div>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://kiwobook.github.io">首页</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">导航</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">购书</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">在线阅览</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="看看有没有一本好书...">
+                <button class="btn btn-primary" type="button">搜索</button>
+            </form>
+        </div>
     </div>
-
 </nav>
 </body>
 </html>
